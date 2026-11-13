@@ -1,48 +1,62 @@
-# desafio-lanzamiento
+
 # 🚀 Misión Euler – Simulador de Cohete
 
-## Descripción
-Aplicación web desarrollada para la asignatura de Métodos Numéricos, inspirada en la película *Talentos ocultos*. Simula el lanzamiento vertical de un cohete mediante ecuaciones diferenciales.
+Proyecto de Métodos Numéricos inspirado en la película
+**Talentos ocultos (Hidden Figures)**.
 
-## Funcionalidades
+Simula el lanzamiento vertical de un cohete y compara
+diferentes métodos para resolver ecuaciones diferenciales.
+
+## ⚙️ Funcionalidades
+
 - Ingreso de parámetros del cohete.
-- Cálculo mediante los métodos de Euler, Heun y Runge-Kutta (RK4).
+- Simulación mediante el método de Euler.
+- Implementación de Heun y Runge-Kutta (RK4).
 - Cálculo de la solución analítica.
 - Gráficas de velocidad y altura.
-- Tablas de iteraciones y comparación de errores.
-- Exportación de resultados a CSV.
+- Tablas de resultados y comparación de errores.
+- Exportación de resultados en CSV.
 
-## Tecnologías
+## 💻 Tecnologías
+
 - HTML5
 - CSS3
 - JavaScript
 
-## Ejecución
+## 🚀 Cómo ejecutar
+
 1. Descargar o clonar el repositorio.
-2. Abrir el archivo `index.html` en un navegador web.
-3. Ingresar los parámetros y presionar **Ejecutar simulación**.
+2. Abrir el archivo `index.html` en el navegador.
+3. Configurar los parámetros del cohete.
+4. Presionar **Ejecutar simulación**.
 
-## Modelo matemático
+## 📐 Modelo matemático
 
-El movimiento del cohete se representa mediante:
+El movimiento vertical del cohete se describe mediante:
 
-\[
-\frac{dv}{dt}=\frac{T}{m}-g-\frac{k}{m}v
-\]
+**Aceleración:**
 
-\[
-\frac{dy}{dt}=v
-\]
+dv/dt = T/m - g - (k/m)v
+
+**Velocidad y altura:**
+
+dy/dt = v
 
 Donde:
-- \(T\): empuje del cohete.
-- \(m\): masa.
-- \(g\): gravedad.
-- \(k\): coeficiente de resistencia.
-- \(v\): velocidad.
-- \(y\): altura.
 
-## Objetivo
-Comparar la precisión de los métodos numéricos con la solución analítica y analizar cómo influye el tamaño del paso de integración en los resultados.
+- **T:** Empuje del cohete.
+- **m:** Masa del cohete.
+- **g:** Gravedad.
+- **k:** Coeficiente de resistencia.
+- **v:** Velocidad.
+- **y:** Altura.
 
-**Proyecto académico – Métodos Numéricos.**
+## 🎯 Objetivo
+
+Comparar los resultados de Euler, Heun y RK4 con la
+solución analítica para analizar la precisión de cada
+método y la influencia del tamaño del paso.
+
+---
+
+**Proyecto académico | Métodos Numéricos**
